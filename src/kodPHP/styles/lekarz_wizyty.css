@@ -1,0 +1,149 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url('../images/hms.jpg');
+    -webkit-filter: blur(9px);
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid;
+  }
+
+
+  .bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+#admin.bg-text{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 25% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+}
+
+.info
+{
+    border: lightgrey 1px solid;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 30%;
+    box-shadow: 5px 5px lightgray;
+}
+
+h2
+{
+    text-align: center;
+    padding: 30px;
+}
+
+.main-image
+{
+    height: 300px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-image h1
+{
+    margin-top: 0px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+}
+
+nav.navbar.navbar-inverse
+{
+    margin: 0px;
+}
+
+.main-image i
+{
+    padding: 20px;
+}
+
+
+#inputbtn
+{
+    margin: auto;
+}
+
+#hidden
+{
+    width: 75%;
+    margin: auto;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.btn-primary
+{
+    color:#fff;
+    background-color:#4682B4;
+}
+
+.btn-primary:hover
+{
+    color:#fff;
+    background-color:#7EB6FF;
+    border-color: #7EB6FF;
+}
+
+
+a#logout
+{
+    padding: 10px;
+    color: white;
+    float: right;
+}
+
+a#logout:hover
+{
+    text-decoration: none;
+}
+
+.col-md-2, .col-md-6, .col-md-10, .col-md-2, .col-md-8, .col-md-4
+{
+    padding-bottom: 5px;
+}

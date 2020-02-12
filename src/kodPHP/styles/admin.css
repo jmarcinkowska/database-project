@@ -1,0 +1,89 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+
+    background-image: url('../images/hms.jpg');
+    -webkit-filter: blur(9px);
+
+    height: 50%; 
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid;
+  }
+
+
+#admin.bg-text
+{
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 25% ;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+
+.container
+{
+  text-align: center;
+  padding: 20px;
+  /* margin-top: 60%; */
+}
+
+button
+{
+  position: relative;
+  width: 70%;
+  height: 70px;
+  background-color: #4682B4;
+  color: white;
+  text-transform: uppercase;
+  border-color: #4682B4;
+}
+
+.button1
+{
+  margin: auto;
+  position: absolute;
+}
+
+.col-md-5, .col-md-1, .col-md-2, .col-md-3
+{
+  padding: 20px;
+}
+
+.myDIV8
+{
+  margin:auto;
+}
+
+a#logout
+{
+    padding: 10px;
+    color: white;
+    float: right;
+}
+
+a#logout:hover
+{
+    text-decoration: none;
+}
