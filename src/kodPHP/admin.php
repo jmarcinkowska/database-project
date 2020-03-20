@@ -39,7 +39,7 @@
     </div>
 
 <div class="container">
-    <button onclick="zwolnijLekarza()" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">ZWOLNIJ LEKARZA</button>
+    <button onclick="pokaz('myDIV')" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">ZWOLNIJ LEKARZA</button>
     <div id="myDIV" style="display:none;">
         <form action="zwolnij_lekarza.php" method="POST">
             <div class="row">
@@ -57,7 +57,7 @@
     </div>
 </div>
     <div class="container">
-    <button onclick="dodajLekarza()" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ LEKARZA</button>
+    <button onclick="pokaz('myDIV2')" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ LEKARZA</button>
     <div id="myDIV2" style="display:none;">
         <form action="dodaj_lekarza.php" method="POST">
             <div class="form-group">
@@ -112,7 +112,7 @@
     </div>
 </div>
     <div class="container">
-    <button onclick="dodajLekarstwo()" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ LEKARSTWO</button>
+    <button onclick="pokaz('myDIV4')" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ LEKARSTWO</button>
     <div id="myDIV4" style="display:none;">
         <form action="dodaj_lekarstwo_admin.php" method="POST">
             <div class="form-group">
@@ -138,7 +138,7 @@
     </div>
 </div>
     <div class="container">
-    <button onclick="wyswietlLekarza()" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">WYŚWIETL LEKARZY</button>
+    <button onclick="pokaz('myDIV7')" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">WYŚWIETL LEKARZY</button>
     <div id="myDIV7" style="display:none;">
         <form action="wyswietl_lekarza.php" method="POST">
             <div class="form-group">
@@ -159,7 +159,7 @@
             </div>
 
             <div class="col-md-4" id="myDIV8"></div>
-            <div class="col-md-5"><button type="submit" value="Wyświetl" class="button1" onclick="wyswietl()"/>Wyświetl</button></div>
+            <div class="col-md-5"><button type="submit" value="Wyświetl" class="button1" onclick="pokaz('myDIV8')"/>Wyświetl</button></div>
             <div class="col-md-3"></div>
                 </div>
         </form>
@@ -167,7 +167,7 @@
 </div>
 
     <div class="container">
-    <button onclick="dodajDyzur()" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ DYŻUR</button>
+    <button onclick="pokaz('myDIV5')" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ DYŻUR</button>
     <div id="myDIV5" style="display:none;">
         <form action="dodaj_dyzur.php" method="POST">
             <div class="form-group">
@@ -216,7 +216,7 @@
     </div>
 </div>
     <div class="container">
-    <button onclick="dodajChorobe()" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ NOWĄ CHOROBĘ</button>
+    <button onclick="pokaz('myDIV6')" type="submit" class="button button--wayra button--border-thick button--text-upper button--size-s">DODAJ NOWĄ CHOROBĘ</button>
     <div id="myDIV6" style="display:none;">
         <form action="dodaj_chorobe.php" method="POST">
             <div class="form-group">
